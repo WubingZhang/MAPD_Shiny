@@ -1,0 +1,18 @@
+Column	Description
+Gene	Gene name
+Entry	Uniprot ID
+MAPD.score	MAPD prediction score
+Feature.completness	Feature completeness
+Max.degradation	Maximal degradation by multi-kinase degraders
+DegradeFreq	Frequency of degradation by multi-kinase degraders
+IsKinase	Is it a kinase?
+PROTACdb	Does it have reported degraders in PROTAC-DB?
+PROTACpedia	Does it have reported degraders in PROTACpedia?
+Multi.kinase.degrader	Is it down-regulated by a multi-kinase degrader?
+PROTACtable	Is it included in the PROTACtable genome?
+DrugBank	Does it have a pharmacologically active compound in the DrugBank database?
+ChEMBL	Does it have a ligand in the ChEMBL database?
+Electrophiles	The number of electrophil ligands reported in the SLCABPP (it's 10 if there are more than 10). 
+TF	Is it a transcriptional factor?
+OncoKB	Is it a cancer gene?
+Clinvar	Is it associated with a disease in the Clinvar?

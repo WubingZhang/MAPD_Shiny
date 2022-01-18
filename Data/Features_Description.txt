@@ -1,0 +1,45 @@
+Column	Category	Description
+Gene		Gene name
+Entry		Uniprot ID
+Length	Length	Protein length
+ArgRatio	Other	Fraction of arginine residues in the protein 
+LysRatio	Other	Fraction of lysine residues in the protein 
+STTRatio	Other	Fraction of serine, tyrosine, threonine residues in the protein 
+Acetylation_1	PTM	Acetylation potential, determined as the fraction of acetylation sites out of lysine residues in the protein 
+Acetylation_2	PTM	Acetylation potential, determined as the fraction of acetylation sites out of lysine residues in the protein (with at least two references in the PhosphoSitePlus)
+Methylation_1	PTM	Methylation potential, determined as the fraction of methylation sites out of lysine residues in the protein 
+Methylation.K_1	PTM	Methylation potential, determined as the fraction of methylation sites out of lysine residues in the protein (with at least two references in the PhosphoSitePlus)
+Phosphorylation_1	PTM	Phosphorylation potential, determined as the fraction of phosphorylation sites out of serine, threonine, and tyrosine residues in the protein 
+Phosphorylation_2	PTM	Phosphorylation potential, determined as the fraction of phosphorylation sites at serine, threonine, and tyrosine residues in the protein (with at least two references in the PhosphoSitePlus)
+Sumoylation_1	PTM	Sumoylation potential, determined as the fraction of sumoylation sites out of lysine residues in the protein 
+Ubiquitination_1	PTM	Ubiquitination potential, determined as the fraction of ubiquitination sites out of lysine residues in the protein 
+Ubiquitination_2	PTM	Ubiquitination potential, determined as the fraction of ubiquitination sites out of lysine residues in the protein (with at least two references in the PhosphoSitePlus)
+DisorderFraction	Other	Fraction of disorder regions in the protein (mobidb)
+nInteract	PPI	Number of potential protein-protein interactions (STRING-DB)
+nComplex	PPI	Number of potential protein complexes (CORUM)
+MOLT4_RNA	Expression	mRNA expression in MOLT4 cells
+MOLT4_Protein	Expression	Relative protein abundance in MOLT4 cells
+MOLT4_H3K27ac	Expression	H3K27ac signal in MOLT4 cells
+Detectability	Detectability	Frequency of detection in Donovan et al proteomic data
+MLN4924_DMSO.PSI	Stability	Protein stability index of full protein in DMSO treated cells
+MLN4924.PSI	Stability	Protein stability index of full protein in MLN4924 treated cells
+SCF_DMSO.PSI	Stability	Protein stability index of full protein in DMSO treated cells
+SCF.PSI	Stability	Protein stability index of full protein in SCF deficient cells
+CRL3_DMSO.PSI	Stability	Protein stability index of full protein in DMSO treated cells
+CRL3.PSI	Stability	Protein stability index of full protein in CRL3 deficient cells
+CRL4_DMSO.PSI	Stability	Protein stability index of full protein in DMSO treated cells
+CRL4.PSI	Stability	Protein stability index of full protein in CRL4 deficient cells
+GPSseq	Stability	Protein stability index of full protein by GPS-seq
+Cterminome	Stability	Protein stability index of C-terminal sequences
+Nterminome	Stability	Protein stability index of N-terminal sequences
+Mathieson2018_Bcells_Halflife	Half-life	Protein half life in B cells
+Mathieson2018_NKs_Halflife	Half-life	Protein half life in NK cells
+Mathieson2018_Hepatocytes_Halflife	Half-life	Protein half life in hepatocyte cells
+Mathieson2018_Monocytes_Halflife	Half-life	Protein half life in monocytes
+Mathieson2018_mNeurons_Halflife	Half-life	Protein half life in mouse neuron cells
+Boisvert2012_Hela_Whole_Turnover	Half-life	Protein turnover in Hela cells
+Boisvert2012_Hela_Cytoplasm_Turnover	Half-life	Protein turnover in cytoplasm of Hela cells
+Boisvert2012_Hela_Nucleus_Turnover	Half-life	Protein turnover in nucleus of Hela cells
+Boisvert2012_Hela_Nucleolus_Turnover	Half-life	Protein turnover in nucleolus of Hela cells
+Selbach2011_NIH3T3_Halflife	Half-life	Protein half life in NIH3T3 cells
+Zecha2018_Hela_Halflife	Half-life	Protein half life in Hela cells

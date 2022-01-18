@@ -1,0 +1,13 @@
+Column	Description
+Gene	Gene name
+Entry	Uniprot ID
+PDB	PDB structure used for modeling
+Residue	Lysine or UB Site
+Position	Position of the lysine residue
+E2_Acc	The fraction of models in which the Ub site was in the quadrant facing the E2 and within a reasonable distance
+E2_Acc_Adj	The fraction of models in which the Ub site was in the quadrant facing the E2 and within a reasonable distance and the C-alpha->C-beta vector is not facing in completely the opposite direction.
+Dist3D	The distance between the lysine residue and likely PROTAC binding sites (e.g. ATP binding sites)
+RSA	Relative Solvent Accessibility
+b	b-factor indicating the flexibility of the lysine residue
+sse	The secondary structure of the lysine residue
+sse3	The secondary structure of the lysine residue
